@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+  font-family: 'Red Hat Display' , 'sans serif';
+  margin: auto;
+}
+
+html{
+  height: 100vh;
+}
+
+body{
+  background-image: url('images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  background-attachment: fixed;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+  position: relative;
+  height: 700px;
+  margin-top: 5%;
+  width: 40%;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+.main-img{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  width: 100%;
+}
+
+.headline{
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.p1 {
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  padding-top: 20px;
+}
+.sub-container{
+  background-color: hsl(225, 100%, 98%);
+  height: 100px;
+  width: 65%;
+  border-radius: 1rem;
+  margin-top: 20px;
+}
+
+.music-img{
+  margin-top: 7%;
+  margin-left: 9%;
+}
+
+.sub-container h2{
+  color: hsl(223, 47%, 23%);
+  position: relative;
+  margin-top: -15%;
+  margin-left: 28%;
+  font-size: 16px;
+}
+.sub-container p{
+  color:hsl(224, 23%, 55%);
+  margin-left: 28%;
+  padding-top: 3px;;
+}
+
+.sub-container h3{
+  color: rgb(90, 81, 189);
+  text-decoration: none;
+  font-size: 16px;
+  float: right;
+  margin-right: 10%;
+  margin-top: -10%;
+  cursor: pointer;
+}
+.sub-container h3:hover{
+  color:black;
+  transition: 1s;
+}
+.payment-div button{
+  color: white;
+  border: none;
+  background-color: rgb(90, 81, 189);
+  width: 65%;
+  height: 50px;
+  border-radius: 1rem;
+  margin-top: 30px;
+  margin-left: 17%;
+  cursor: pointer;
+}
+.payment-div button:hover{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transition: 1s;
+}
+
+.cancel{
+  color:hsl(223, 47%, 23%);
+  text-align: center;
+  margin-top: 5%;
+}
+
+.footer{
+  height: 80px;
+}
+
+
+@media (max-width:700px){
+  .container{
+    width: 80%;
+    background-color: white;
+    height: 600px;
+  }
+  .sub-container{
+    background-color: hsl(225, 100%, 98%);
+    height: 100px;
+    width: 80%;
+    border-radius: 1rem;
+    margin-top: 20px;
+  }
+  .payment-div button{
+    color: white;
+    border: none;
+    background-color: rgb(90, 81, 189);
+    width: 80%;
+    height: 50px;
+    border-radius: 1rem;
+    margin-top: 30px;
+    margin-left: 10%;
+    cursor: pointer;
+  }
+  .footer{
+    height: 60px;
+  }
+}
